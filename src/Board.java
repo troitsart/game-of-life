@@ -35,8 +35,8 @@ public class Board
         {
             for (int j = 0; j < places.get(0).size(); j++)
             {
-                if (places.get(i).get(j)) System.out.print(1);
-                else System.out.print(0);
+                if (places.get(i).get(j)) System.out.print('@');
+                else System.out.print(' ');
             }
 
             System.out.print('\n');
